@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zwashu IT Solutions</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Zwashu IT Solutions Logo">
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <h1>Welcome to Zwashu IT Solutions</h1>
+    <p>Your trusted partner in IT support, upgrades, and technology solutions. We connect you seamlessly to the digital world.</p>
+    <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get in Touch</button>
+</section>
+
+<section id="about" class="fade-in">
+    <h2>About Us</h2>
+    <p>Zwashu IT Solutions provides professional IT services including Windows upgrades, SSD installations, technical support, and more. Our mission is to connect you to technology with ease, efficiency, and security.</p>
+</section>
+
+<section class="services" id="services">
+    <div class="service-card fade-in">
+        <i class="fas fa-windows service-icon"></i>
+        <h3>Windows Upgrades</h3>
+        <p>Upgrade from Windows 10 to Windows 11 smoothly and securely.</p>
+    </div>
+    <div class="service-card fade-in">
+        <i class="fas fa-hdd service-icon"></i>
+        <h3>SSD Installation</h3>
+        <p>Boost your system speed by upgrading from traditional HDD to SSD.</p>
+    </div>
+    <div class="service-card fade-in">
+        <i class="fas fa-headset service-icon"></i>
+        <h3>Technical Support</h3>
+        <p>Professional IT support for all your hardware and software needs.</p>
+    </div>
+    <div class="service-card fade-in">
+        <i class="fas fa-credit-card service-icon"></i>
+        <h3>Card Payments</h3>
+        <p>We accept card payments for your convenience and security.</p>
+    </div>
+</section>
+
+<section id="pricing" class="fade-in">
+    <h2>Pricing Plans</h2>
+    <div class="pricing-cards">
+        <div class="pricing-card">
+            <h3>Basic</h3>
+            <p>System check & optimization</p>
+            <p>Windows update</p>
+            <p>Price: R200</p>
+        </div>
+        <div class="pricing-card">
+            <h3>Standard</h3>
+            <p>Includes Basic + SSD installation</p>
+            <p>Data backup</p>
+            <p>Price: R500</p>
+        </div>
+        <div class="pricing-card">
+            <h3>Premium</h3>
+            <p>Full IT support & maintenance</p>
+            <p>On-site & remote service</p>
+            <p>Price: R1000</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="fade-in">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-slider">
+        <div class="testimonial">
+            <p>"Zwashu IT Solutions upgraded our systems with zero downtime. Truly professional!"</p>
+            <span>- Thabo M.</span>
+        </div>
+        <div class="testimonial">
+            <p>"Fast and reliable service! My computer is faster than ever."</p>
+            <span>- Lindiwe K.</span>
+        </div>
+        <div class="testimonial">
+            <p>"They made everything so simple and easy to understand. Highly recommend!"</p>
+            <span>- Sipho R.</span>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="fade-in">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:innocentwanga@gmail.com">innocentwanga@gmail.com</a></p>
+    <p>Phone: <a href="tel:0720838553">072 083 8553</a></p>
+    <p>Visit us: Makhado, Limpopo</p>
+    <div id="map"></div>
+</section>
+
+<footer>
+    &copy; 2025 Zwashu IT Solutions. All rights reserved.
+</footer>
+
+<a href="https://wa.me/27720838553" target="_blank" class="whatsapp-btn">💬</a>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap"></script>
+</body>
+</html>
